@@ -27,13 +27,13 @@ This guide walks you through how to **rename a pod using the Celium API**. Pod r
   - [Final Notes](#final-notes)
   - [Need Help?](#need-help)
 
+---
 
 ## Prerequisites
 
 - A valid Celium **API Key** (created from the Celium Dashboard). To create a new Celium API key, visit your Celium Dashboard.
 - The **pod ID** (UUID) of the pod you want to rename
 - `curl`, Postman, or any HTTP client like Python `requests` or Node.js `fetch` to send the request
-
 
 ---
 
