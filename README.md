@@ -1,6 +1,6 @@
 # Renaming a Pod via Celium API
 
-This guide walks you through how to **rename a pod using the Celium API**. Pod renaming is a simple, direct operation that updates the pod_name field of a pod identified by its UUID.
+This guide walks you through how to **rename a pod using the Celium API**. Pod renaming is a simple, direct operation that updates the `pod_name` field of a pod identified by its UUID.
 
 > **Goal**: To rename an existing pod using a single API call via `curl`, Postman, or code.
 
