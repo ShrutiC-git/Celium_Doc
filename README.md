@@ -16,7 +16,6 @@ This guide walks you through how to **rename a pod using the Celium API**. Pod r
   - [Example Request (Node.js)](#example-request-nodejs)
   - [Successful Response](#successful-response)
     - [200: OK](#200-ok)
-      - [Response Body:](#response-body)
   - [Troubleshooting API Errors](#troubleshooting-api-errors)
     - [401: Unauthorized (Missing API Key)](#401-unauthorized-missing-api-key)
     - [401: Unauthorized (Invalid API Key)](#401-unauthorized-invalid-api-key)
