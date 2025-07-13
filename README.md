@@ -81,6 +81,8 @@ Expected payload:
 
 ## Example Request (cURL)
 
+Here's how to send a PATCH request for renaming a pod with `curl`:
+
 ```bash
 curl -X PATCH https://celiumcompute.ai/api/pods/{pod_id}   -H "x-api-key: your_api_key_here" -H "Content-Type: application/json" -d '{"pod_name": "new_pod_name"}'
 ```
@@ -88,6 +90,8 @@ curl -X PATCH https://celiumcompute.ai/api/pods/{pod_id}   -H "x-api-key: your_a
 ---
 
 ## Example Request (Python)
+
+Here's how to send a PATCH request for renaming a pod with the `requests` library in Python: 
 
 ```python
 import requests
@@ -107,6 +111,8 @@ response = requests.patch(url, headers=headers, json=data)
 ---
 
 ## Example Request (Node.js)
+
+Here's how to send a PATCH request for renaming a pod with the `fetch` API in Node.js:
 
 ```javascript
 const url = "https://celiumcompute.ai/api/pods/{pod_id}";
@@ -260,4 +266,4 @@ For issues or unexpected behavior, check:
 - Correctness of `pod_id`
 - JSON formatting
 
-> For further support, please [contact the Celium team](https://celiumcompute.ai/docs/intro#contact).
+> _For further support, please [contact the Celium team](https://celiumcompute.ai/docs/intro#contact)._
